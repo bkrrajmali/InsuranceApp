@@ -1,0 +1,20 @@
+
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Customer Service API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Root endpoint",
+        "responses": {
+          "200": {
+            "description": "Customer Service Running"
+          }
+        }
+      }
+    }
+  }
+}
